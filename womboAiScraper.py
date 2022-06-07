@@ -43,11 +43,13 @@ def delete(path):
         print(dlt)
         dlt = str(path + dlt)
         os.remove(dlt)
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! jestli chci delete
 delete("Download/")
 
 
 
 def downloadImage(imgType,inputText,iteration):
+    # imgType = styl obrázku (steampunk, synthwave,...)
 
 
     #Add headless option

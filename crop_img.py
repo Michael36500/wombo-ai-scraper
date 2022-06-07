@@ -17,4 +17,4 @@ def crop():
         # write cropped image
         cv2.imwrite("Download/{}".format(a), crop)
 
-crop()
+# crop()
