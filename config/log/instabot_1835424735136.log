@@ -1,0 +1,22 @@
+2022-05-29 19:28:03,802 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-05-29 19:28:03,803 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Python39\lib\site-packages\instabot\bot\bot.py
+2022-05-29 19:28:03,808 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-05-29 19:28:04,018 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2022-05-29 19:28:04,018 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2022-05-29 19:28:04,018 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2022-05-29 19:28:04,226 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-05-29 19:28:04,411 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-05-29 19:28:04,573 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [429]>
+2022-05-29 19:28:04,573 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2022-05-29 19:28:04,574 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2022-05-29 19:28:05,857 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2022-05-29 19:28:05,857 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXGz0HjGKOiEi_TJB9KPU92rk82Li0npdeBvlHj79ydJr8xElPyZkxex5ca-icvdQPMC5QE/p4CYG3Dx06PBgiOQ/","api_path":"/challenge/AXGz0HjGKOiEi_TJB9KPU92rk82Li0npdeBvlHj79ydJr8xElPyZkxex5ca-icvdQPMC5QE/p4CYG3Dx06PBgiOQ/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2022-05-29 19:28:05,857 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-05-29 19:28:05,858 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2022-05-29 19:28:05,858 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2022-05-29 19:28:08,142 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 19:28:08,142 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/airship_TradingCard (1).jpg' is not uploaded.
+2022-05-29 19:28:41,556 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 19:28:41,556 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/airship_TradingCard (2).jpg' is not uploaded.
+2022-05-29 19:29:12,999 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 19:29:13,000 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/airship_TradingCard (3).jpg' is not uploaded.

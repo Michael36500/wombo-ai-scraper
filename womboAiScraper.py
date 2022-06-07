@@ -4,9 +4,10 @@ import time
 from cv2 import imwrite
 import requests
 from io import BytesIO
-# import cv2
+import shutil
 
-# import crop_img as crop
+
+import crop_img as crop
 
 #Import third part modules
 from PIL import Image
@@ -29,13 +30,25 @@ XPATH_RESULT_IMG = '/html/body/div[1]/div/div[3]/div/div/div[2]/div/img'
 XPATH_NAME_TEXT = '/html/body/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/input'
 XPATH_SAVE = '/html/body/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[4]/div[1]/button'
 #Category of images to generate
-CATEGORIES = ["Mystical"]
+CATEGORIES = ["Steampunk"]
 # CATEGORIES = ["Mystical","HD","Synthwave","Vibrant"]
 
 #This is all current categories on wombo.art
-#CATEGORIES = ["Etching","Baroque","Mystical","Festive","Dark Fantasy","Psychic","Pastel","HD","Vibrant","Fantasy Art","Steampunk","Ukiyoe","Synthwave","No Style"]
+# CATEGORIES = ["Etching","Baroque","Mystical","Festive","Dark Fantasy","Psychic","Pastel","HD","Vibrant","Fantasy Art","Steampunk","Ukiyoe","Synthwave","No Style"]
+
+
+def delete(path):
+    dele = os.listdir(path)
+    for dlt in dele:
+        print(dlt)
+        dlt = str(path + dlt)
+        os.remove(dlt)
+delete("Download/")
+
+
 
 def downloadImage(imgType,inputText,iteration):
+
 
     #Add headless option
     browserOptions = Options()
@@ -68,7 +81,7 @@ def downloadImage(imgType,inputText,iteration):
     btnGenerate = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH,XPATH_SAVE)))
     btnGenerate.click()
     
-    time.sleep(10)
+    time.sleep(5)
     
 
 
@@ -95,19 +108,24 @@ def downloadImage(imgType,inputText,iteration):
 driverThreads = []
 
 # inputText = input("What do you want to generate with AI : ")
-inputText = "Space"
-inputText = "".join([x.capitalize() for x in inputText.split(" ")])
+# inputText = "Space"
+inputText = ["city", "sunset", "sea", "forest", "airship", "port", "robot", "factory", "human", "fly", "waterfall", "tank", "giant robot", "steamtrain", "train"]
+# for a in inputText:
+
+# inputText = "".join([x.capitalize() for x in inputText.split(" ")])
 # iterations = int(input("Number of iterations : "))
-iterations = 5
+iterations = len(inputText)
+print(iterations)
 
 #Create directory
-if not os.path.exists(inputText):
-    os.mkdir(inputText)
+# if not os.path.exists(inputText):
+#     os.mkdir(inputText)
 
-for i in CATEGORIES:
-    for j in range(iterations):
-        #Add thread to the list
-        driverThreads.append(threading.Thread(target=downloadImage, kwargs={'imgType':i.replace(" ",""),'inputText':inputText,'iteration':j}))
+for a in range(6):
+    for i in CATEGORIES:
+        for j in range(iterations):
+            #Add thread to the list
+            driverThreads.append(threading.Thread(target=downloadImage, kwargs={'imgType':i.replace(" ",""),'inputText':inputText[j],'iteration':j}))
 
 #Start all threads
 for i in driverThreads:
@@ -118,10 +136,19 @@ for i in driverThreads:
         i.start()
     except:
         pass
+    time.sleep(5)
 
 #Wait for the end of all threads
 for i in driverThreads:
     i.join()
 
+# move images from downloads to Downloads
+path = "c:/Users/ambro/Downloads/"
+files = os.listdir(path)
+for file in files:
+    if "TradingCard" in file:
+        shutil.move("c:/Users/ambro/Downloads/{}".format(file), "D:/D/programování/PYTHON/webscrape/wombo-ai-scraper/Download/{}".format(file))
+        print(file)
 
-# crop.crop()
+
+crop.crop()

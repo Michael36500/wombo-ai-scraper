@@ -1,0 +1,16 @@
+2022-05-29 11:11:11,840 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-05-29 11:11:11,840 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Python39\lib\site-packages\instabot\bot\bot.py
+2022-05-29 11:11:11,841 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-05-29 11:11:12,033 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2022-05-29 11:11:12,034 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2022-05-29 11:11:12,037 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2022-05-29 11:11:12,253 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-05-29 11:11:12,436 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-05-29 11:11:12,637 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [429]>
+2022-05-29 11:11:12,637 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2022-05-29 11:11:12,637 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2022-05-29 11:11:13,971 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2022-05-29 11:11:13,971 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXHNCVrBll_mA-f7MAOKMVcoDqSSGtNA9BQ7_7tLP5RHZsCCr4UqthAzbZRdoBWRrsc-8eQ/4zfc80YgsFXRh3GA/","api_path":"/challenge/AXHNCVrBll_mA-f7MAOKMVcoDqSSGtNA9BQ7_7tLP5RHZsCCr4UqthAzbZRdoBWRrsc-8eQ/4zfc80YgsFXRh3GA/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2022-05-29 11:11:13,971 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-05-29 11:11:13,972 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2022-05-29 11:11:13,972 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required

@@ -1,0 +1,42 @@
+2022-05-29 14:49:49,599 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-05-29 14:49:49,599 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Python39\lib\site-packages\instabot\bot\bot.py
+2022-05-29 14:49:49,600 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-05-29 14:49:49,833 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2022-05-29 14:49:49,833 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2022-05-29 14:49:49,833 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2022-05-29 14:49:50,043 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-05-29 14:49:50,234 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-05-29 14:49:50,409 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [429]>
+2022-05-29 14:49:50,409 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2022-05-29 14:49:50,409 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2022-05-29 14:49:53,240 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2022-05-29 14:49:53,240 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXETlzBk7_4b307xhsOAo80mR6A9HIw58YNXgZ-8r5gsgkjHGwVtktY6uIkfCKQfUWT-wv0/nGEPJgkOs17ywaep/","api_path":"/challenge/AXETlzBk7_4b307xhsOAo80mR6A9HIw58YNXgZ-8r5gsgkjHGwVtktY6uIkfCKQfUWT-wv0/nGEPJgkOs17ywaep/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2022-05-29 14:49:53,240 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-05-29 14:49:53,241 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2022-05-29 14:49:53,241 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2022-05-29 14:49:56,166 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 14:49:56,166 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/airship_TradingCard (1).jpg' is not uploaded.
+2022-05-29 14:50:57,840 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 14:50:57,840 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/airship_TradingCard (2).jpg' is not uploaded.
+2022-05-29 14:52:00,681 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 14:52:00,682 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/airship_TradingCard (3).jpg' is not uploaded.
+2022-05-29 14:53:03,090 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 14:53:03,091 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/airship_TradingCard.jpg' is not uploaded.
+2022-05-29 14:54:06,003 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 14:54:06,004 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard (1).jpg' is not uploaded.
+2022-05-29 14:55:09,320 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 14:55:09,321 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard (2).jpg' is not uploaded.
+2022-05-29 14:56:12,062 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 14:56:12,063 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard (3).jpg' is not uploaded.
+2022-05-29 14:57:15,802 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 14:57:15,802 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard (4).jpg' is not uploaded.
+2022-05-29 14:58:18,630 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 14:58:18,630 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard (5).jpg' is not uploaded.
+2022-05-29 14:59:20,948 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 14:59:20,948 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard.jpg' is not uploaded.
+2022-05-29 15:00:22,790 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 15:00:22,790 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/factory_TradingCard (1).jpg' is not uploaded.
+2022-05-29 15:01:27,106 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 15:01:27,107 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/factory_TradingCard (2).jpg' is not uploaded.
+2022-05-29 15:02:28,673 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2022-05-29 15:02:28,673 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/factory_TradingCard (3).jpg' is not uploaded.
