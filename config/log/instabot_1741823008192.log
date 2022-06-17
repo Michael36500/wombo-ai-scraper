@@ -1,0 +1,11 @@
+2022-06-17 20:23:19,128 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-06-17 20:23:19,128 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Python39\lib\site-packages\instabot\bot\bot.py
+2022-06-17 20:23:19,128 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2022-06-17 20:23:19,128 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2022-06-17 20:23:19,129 - instabot version: 0.117.0 (api_login) - INFO - Recovery from D:\D\programování\PYTHON\webscrape\wombo-ai-scraper/config/_steampunk_art__uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=78504e38-6c5b-474a-ae61-20e5202dd4fa
+- uuid=866c3792-e909-4351-b4d4-2049035f85db
+- client_session_id=ea36bab0-ff60-4da9-a554-81655a464dd8
+- device_id=android-aa23abe2cf798ff6
+2022-06-17 20:23:19,130 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
