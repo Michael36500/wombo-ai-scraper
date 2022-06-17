@@ -111,7 +111,8 @@ driverThreads = []
 
 # inputText = input("What do you want to generate with AI : ")
 # inputText = "Space"
-inputText = ["city", "sunset", "sea", "forest", "airship", "port", "robot", "factory", "human", "fly", "waterfall", "tank", "giant robot", "steamtrain", "train"]
+# inputText = ["city", "sunset", "sea", "forest", "airship", "port", "robot", "factory", "human", "fly", "waterfall", "tank", "giant robot", "steamtrain", "train"]
+inputText = ["city"]
 # for a in inputText:
 
 # inputText = "".join([x.capitalize() for x in inputText.split(" ")])
@@ -123,7 +124,7 @@ print(iterations)
 # if not os.path.exists(inputText):
 #     os.mkdir(inputText)
 
-for a in range(6):
+for a in range(5):
     for i in CATEGORIES:
         for j in range(iterations):
             #Add thread to the list
