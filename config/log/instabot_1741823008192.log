@@ -9,3 +9,18 @@
 - client_session_id=ea36bab0-ff60-4da9-a554-81655a464dd8
 - device_id=android-aa23abe2cf798ff6
 2022-06-17 20:23:19,130 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2022-06-17 20:23:20,232 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2022-06-17 20:23:20,482 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2022-06-17 20:23:20,482 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as '_steampunk_art_'!
+2022-06-17 20:23:20,483 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: D:\D\programování\PYTHON\webscrape\wombo-ai-scraper/config/_steampunk_art_.checkpoint
+2022-06-17 20:24:49,810 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-17 20:24:49,971 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-17 20:24:49,972 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/handmade_tank_TradingCard.jpg' is uploaded.
+2022-06-17 20:25:52,828 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-17 20:25:52,996 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-17 20:25:52,996 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/dark_giant_TradingCard.jpg' is uploaded.
+2022-06-17 21:25:00,721 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-17 21:25:00,895 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-17 21:25:00,896 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/epic_waterfall_TradingCard.jpg' is uploaded.
+2022-06-17 22:24:41,210 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: D:\D\programování\PYTHON\webscrape\wombo-ai-scraper/config/_steampunk_art_.checkpoint
+2022-06-17 22:24:41,274 - instabot version: 0.117.0 (bot) - INFO - Total requests: 20
