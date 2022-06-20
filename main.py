@@ -9,8 +9,15 @@ import gn_inp
 
 import wait
 
+logs = os.listdir("config/")
+for log in logs:
+    if log == "log":
+        continue
+    os.remove("config/" + log)
+
 # what = os.listdir("Download/")
 # print(what)
+#     for 
 # cl.clear()
 
 # run_num = 0´d
@@ -25,13 +32,13 @@ time.sleep(1)
 # for a in inputs:
 lpnb = 0
 while True:
-    minute = 24
-    while True:
-        now = datetime.datetime.now().time()
-        if now.minute == minute:
-            break
-        time.sleep(10)
-        print("waiting, going on {}, now is {}, means in {}".format(minute, now.minute, 60 - (now.minute + 60 - minute)))
+    minute = 34
+    # while True:
+    #     now = datetime.datetime.now().time()
+    #     if now.minute == minute:
+    #         break
+    #     time.sleep(10)
+    #     print("waiting, going on {}, now is {}, means in {}".format(minute, now.minute, 60 - (now.minute + 60 - minute)))
 
     files = os.listdir("Download/")
     for file in files:
@@ -71,3 +78,4 @@ while True:
 
     # for a in range(60):
     #     wait.wait(a, run_num)
+    break

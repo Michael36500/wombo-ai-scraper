@@ -18,21 +18,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 #YOU NEED TO SET THE CHROME DRIVER PATH
-CHROME_DRIVER_PATH = "c:/Users/ambro/webdrivers/chromedriver.exe"
-
-#XPATH FOR FINDING ELEMENTS ON THE PAGE
-
-XPATH_TEXT_FIELD = "/html/body/div[1]/div/div[3]/div/div/div[1]/div/div[1]/div[1]/div[1]/input"
-XPATH_IMG_TYPE = '//img[@class="Thumbnail__StyledThumbnail-sc-p7nt3c-0 gVABqX"'
-XPATH_BTN_GENERATE = "/html/body/div[1]/div/div[3]/div/div/div[1]/div/div[1]/div[3]/div/button"
-XPATH_RESULT_IMG = '/html/body/div[1]/div/div[3]/div/div/div[2]/div/img'
-
-XPATH_GENERETE = "/html/body/div[1]/div/div[3]/div/div/div[1]/div/div[1]/div[2]/div/div[2]/div[13]/div/div/img"
-
-XPATH_NAME_TEXT = "/html/body/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/input"
-XPATH_SAVE = '/html/body/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[4]/div[1]/button'
-#Category of images to generate
-CATEGORIES = ["Steampunk"]
 # CATEGORIES = ["Mystical","HD","Synthwave","Vibrant"]
 
 #This is all current categories on wombo.art
@@ -51,6 +36,21 @@ CATEGORIES = ["Steampunk"]
 
 
 def downloadImage(imgType,inputText):
+    CHROME_DRIVER_PATH = "c:/Users/ambro/webdrivers/chromedriver.exe"
+
+    #XPATH FOR FINDING ELEMENTS ON THE PAGE
+
+    XPATH_TEXT_FIELD = "/html/body/div[1]/div/div[3]/div/div/div[1]/div/div[1]/div[1]/div[1]/input"
+    XPATH_IMG_TYPE = '//img[@class="Thumbnail__StyledThumbnail-sc-p7nt3c-0 gVABqX"'
+    XPATH_BTN_GENERATE = "/html/body/div[1]/div/div[3]/div/div/div[1]/div/div[1]/div[3]/div/button"
+    XPATH_RESULT_IMG = '/html/body/div[1]/div/div[3]/div/div/div[2]/div/img'
+
+    XPATH_GENERETE = "/html/body/div[1]/div/div[3]/div/div/div[1]/div/div[1]/div[2]/div/div[2]/div[13]/div/div/img"
+
+    XPATH_NAME_TEXT = "/html/body/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[1]/input"
+    XPATH_SAVE = '/html/body/div[1]/div/div[3]/div/div/div[1]/div[2]/div/div[4]/div[1]/button'
+    #Category of images to generate
+    CATEGORIES = ["Steampunk"]
     # imgType = styl obrázku (steampunk, synthwave,...)
 
 
@@ -90,7 +90,7 @@ def downloadImage(imgType,inputText):
     btnGenerate = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH,XPATH_SAVE)))
     btnGenerate.click()
     
-    time.sleep(5)
+    time.sleep(10)
 
 
     # move images from downloads to Downloads
@@ -98,7 +98,8 @@ def downloadImage(imgType,inputText):
     files = os.listdir(path)
     for file in files:
         if "TradingCard" in file:
-            shutil.move("c:/Users/ambro/Downloads/{}".format(file), "D:/D/programování/PYTHON/webscrape/wombo-ai-scraper/Download/{}".format(file))
+            # shutil.move("c:/Users/ambro/Downloads/{}".format(file), "D:/D/programování/PYTHON/webscrape/wombo-ai-scraper/Download/{}".format(file))
+            shutil.copy("c:/Users/ambro/Downloads/{}".format(file), "D:\D\programování\PYTHON\webscrape\STEAMPUNKwombo-ai-scraper\Download\{}".format(file))
             print(file)
     #Get the generated image
     crop.crop()
@@ -163,3 +164,4 @@ def downloadImage(imgType,inputText):
 
 
 # crop.crop()
+# downloadImage("Steampunk","creepy putin with banana")

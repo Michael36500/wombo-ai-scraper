@@ -98,5 +98,5 @@ def gn_inp_short():
 
 
 
-print(gn_inp())
-print(gn_inp_short())
+# print(gn_inp())
+# print(gn_inp_short())
