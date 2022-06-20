@@ -42,7 +42,7 @@ while True:
 
     files = os.listdir("Download/")
     for file in files:
-        os.remove("Download/" + file)
+        os.remove(str("Download/" + file))
     download.downloadImage("Steampunk","{}".format(gn_inp.gn_inp_short()))
     run_num = datetime.datetime.now()
     # x = time.time()
@@ -66,6 +66,7 @@ while True:
     # continue
     print(path)
     bot.upload(path)
+    # os.remove(path)
 
     lpnb += 1
     path = os.listdir("Download/")

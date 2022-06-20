@@ -100,7 +100,7 @@ def downloadImage(imgType,inputText):
         if "TradingCard" in file:
             # shutil.move("c:/Users/ambro/Downloads/{}".format(file), "D:/D/programování/PYTHON/webscrape/wombo-ai-scraper/Download/{}".format(file))
             # change second one into your folder
-            shutil.copy("c:/Users/ambro/Downloads/{}".format(file), "D:\D\programování\PYTHON\webscrape\STEAMPUNKwombo-ai-scraper\Download\{}".format(file))
+            shutil.copy("c:/Users/ambro/Downloads/{}".format(file), "D:\D\programování\PYTHON\webscrape\wombo-ai-scraper\Download\{}".format(file))
             print(file)
     #Get the generated image
     crop.crop()
