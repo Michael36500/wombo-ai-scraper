@@ -36,9 +36,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 def downloadImage(imgType,inputText):
-    CHROME_DRIVER_PATH = "c:/Users/ambro/webdrivers/chromedriver.exe"
+    CHROME_DRIVER_PATH = "c:/Users/ambro/webdrivers/chromedriver.exe"   # add your chromedriver path
 
-    #XPATH FOR FINDING ELEMENTS ON THE PAGE
+    #XPATH FOR FINDING ELEMENTS ON THE PAGE, maybe you'll need to change them/create a issue
 
     XPATH_TEXT_FIELD = "/html/body/div[1]/div/div[3]/div/div/div[1]/div/div[1]/div[1]/div[1]/input"
     XPATH_IMG_TYPE = '//img[@class="Thumbnail__StyledThumbnail-sc-p7nt3c-0 gVABqX"'
@@ -99,6 +99,7 @@ def downloadImage(imgType,inputText):
     for file in files:
         if "TradingCard" in file:
             # shutil.move("c:/Users/ambro/Downloads/{}".format(file), "D:/D/programování/PYTHON/webscrape/wombo-ai-scraper/Download/{}".format(file))
+            # change second one into your folder
             shutil.copy("c:/Users/ambro/Downloads/{}".format(file), "D:\D\programování\PYTHON\webscrape\STEAMPUNKwombo-ai-scraper\Download\{}".format(file))
             print(file)
     #Get the generated image
