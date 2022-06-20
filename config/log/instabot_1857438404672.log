@@ -1,0 +1,87 @@
+2022-05-31 15:42:33,935 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-05-31 15:42:33,935 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Python39\lib\site-packages\instabot\bot\bot.py
+2022-05-31 15:42:33,938 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2022-05-31 15:42:33,938 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2022-05-31 15:42:33,938 - instabot version: 0.117.0 (api_login) - INFO - Recovery from D:\D\programování\PYTHON\webscrape\wombo-ai-scraper/config/_steampunk_art__uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=78504e38-6c5b-474a-ae61-20e5202dd4fa
+- uuid=866c3792-e909-4351-b4d4-2049035f85db
+- client_session_id=00e1951c-9801-4a17-b7c7-f53de00858ce
+- device_id=android-aa23abe2cf798ff6
+2022-05-31 15:42:33,939 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2022-05-31 15:42:34,986 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2022-05-31 15:42:35,205 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2022-05-31 15:42:35,206 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as '_steampunk_art_'!
+2022-05-31 15:42:35,206 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: D:\D\programování\PYTHON\webscrape\wombo-ai-scraper/config/_steampunk_art_.checkpoint
+2022-05-31 15:42:59,419 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-05-31 15:42:59,585 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-05-31 15:42:59,585 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard (1).jpg' is uploaded.
+2022-05-31 16:43:21,014 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-05-31 16:43:21,189 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-05-31 16:43:21,190 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard (2).jpg' is uploaded.
+2022-05-31 17:43:43,053 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-05-31 17:43:43,294 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-05-31 17:43:43,294 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard (3).jpg' is uploaded.
+2022-05-31 18:44:08,354 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-05-31 18:44:08,546 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-05-31 18:44:08,547 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard (4).jpg' is uploaded.
+2022-05-31 19:44:32,645 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-05-31 19:44:32,829 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-05-31 19:44:32,829 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard (5).jpg' is uploaded.
+2022-05-31 20:44:57,727 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-05-31 20:44:57,910 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-05-31 20:44:57,911 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/city_TradingCard.jpg' is uploaded.
+2022-05-31 21:45:20,704 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-05-31 21:45:20,898 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-05-31 21:45:20,899 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/factory_TradingCard (1).jpg' is uploaded.
+2022-06-01 06:07:30,374 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-01 06:07:30,540 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-01 06:07:30,541 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/factory_TradingCard (2).jpg' is uploaded.
+2022-06-01 07:07:54,553 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-01 07:07:54,727 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-01 07:07:54,728 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/factory_TradingCard (3).jpg' is uploaded.
+2022-06-01 08:08:17,494 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-01 08:08:17,905 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-01 08:08:17,905 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/factory_TradingCard (4).jpg' is uploaded.
+2022-06-01 14:48:33,986 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-01 14:48:34,174 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-01 14:48:34,176 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/factory_TradingCard.jpg' is uploaded.
+2022-06-01 15:48:54,739 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-01 15:48:54,958 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-01 15:48:54,959 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/fly_TradingCard (1).jpg' is uploaded.
+2022-06-01 16:49:17,290 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-01 16:49:17,477 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-01 16:49:17,478 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/fly_TradingCard (2).jpg' is uploaded.
+2022-06-01 17:49:39,148 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-01 17:49:39,353 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-01 17:49:39,354 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/fly_TradingCard (3).jpg' is uploaded.
+2022-06-01 18:50:04,634 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-01 18:50:04,807 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-01 18:50:04,808 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/fly_TradingCard (4).jpg' is uploaded.
+2022-06-01 19:50:26,639 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-01 19:50:26,811 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-01 19:50:26,812 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/fly_TradingCard.jpg' is uploaded.
+2022-06-01 20:50:49,316 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-01 20:50:49,496 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-01 20:50:49,497 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/forest_TradingCard (1).jpg' is uploaded.
+2022-06-02 07:58:25,417 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-02 07:58:25,580 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-02 07:58:25,581 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/forest_TradingCard (2).jpg' is uploaded.
+2022-06-02 08:58:49,621 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-02 08:58:49,793 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-02 08:58:49,794 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/forest_TradingCard.jpg' is uploaded.
+2022-06-02 09:59:12,123 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-02 09:59:12,305 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-02 09:59:12,306 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/giant_robot_TradingCard (1).jpg' is uploaded.
+2022-06-02 10:59:36,307 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-02 10:59:36,474 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-02 10:59:36,475 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/giant_robot_TradingCard (2).jpg' is uploaded.
+2022-06-02 11:59:58,798 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-02 11:59:58,982 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-02 11:59:58,983 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/giant_robot_TradingCard (3).jpg' is uploaded.
+2022-06-02 13:00:23,007 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-02 13:00:23,180 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-02 13:00:23,181 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/giant_robot_TradingCard (4).jpg' is uploaded.
+2022-06-02 14:00:46,701 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2022-06-02 14:00:46,879 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2022-06-02 14:00:46,880 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Download/giant_robot_TradingCard.jpg' is uploaded.

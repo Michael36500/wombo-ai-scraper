@@ -1,0 +1,22 @@
+2022-06-20 14:48:04,939 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-06-20 14:48:04,940 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Python39\lib\site-packages\instabot\bot\bot.py
+2022-06-20 14:48:04,940 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-06-20 14:48:05,126 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2022-06-20 14:48:05,126 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2022-06-20 14:48:05,126 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2022-06-20 14:48:06,137 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-06-20 14:48:06,326 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-06-20 14:48:06,509 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [429]>
+2022-06-20 14:48:06,509 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2022-06-20 14:48:06,509 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2022-06-20 14:48:08,110 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2022-06-20 14:48:08,110 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as '_steampunk_art_'!
+2022-06-20 14:48:08,110 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2022-06-20 14:48:08,302 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-06-20 14:48:08,505 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-06-20 14:48:08,677 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-aa23abe2cf798ff6&token_hash=&custom_device_id=android-aa23abe2cf798ff6&fetch_reason=token_expired returned response: <Response [200]>
+2022-06-20 14:48:08,848 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2022-06-20 14:48:09,065 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-06-20 14:48:09,411 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2022-06-20 14:48:10,020 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2022-06-20 14:48:10,284 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>

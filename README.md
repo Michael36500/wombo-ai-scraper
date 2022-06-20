@@ -1,3 +1,6 @@
+update!!! images'll be downloaded into your downloads, if you want to crop them, copy them into dowload folder of this project, ad run crop_img
+
+
 # [Wombo AI Scraper](https://app.wombo.art/)
 
 This script is simply made to scrape the [Wombo AI](https://app.wombo.art/) website and save the images in a folder.
