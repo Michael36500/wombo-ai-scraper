@@ -34,7 +34,7 @@ import cv2
 def login():
     global bot
     bot = Bot()
-    bot.login(username="_steampunk_art_", password="B0TB0T")
+    bot.login(username="_steampunk_art_", password="B0TB0T")    # change username and password
 def upload(path):
     global bot
 
