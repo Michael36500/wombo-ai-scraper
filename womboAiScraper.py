@@ -70,17 +70,18 @@ def downloadImage(imgType,inputText):
         time.sleep(0.1)
 
     #Select the img type to generate
-    # imgTypeBox = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH,f'{XPATH_IMG_TYPE} and @alt="{imgType}"]')))
-    # imgTypeBox.click()
+    imgTypeBox = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/div/div[3]/div/div/div[1]/div[1]/div[1]/div[2]/div/div[2]/div[1]/div/div/img")))
+    imgTypeBox.click()
+
     #Click on the "Create" button
     btnGenerate = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH,XPATH_GENERETE)))
     btnGenerate.click()
 
     time.sleep(1)
 
-    #Click on the "Create" button
-    btnGenerate = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH,XPATH_BTN_GENERATE)))
-    btnGenerate.click()
+    # #Click on the "Create" button
+    # btnGenerate = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.XPATH,XPATH_BTN_GENERATE)))
+    # btnGenerate.click()
 
     #Type the text
     textfield = WebDriverWait(driver, 120).until(EC.element_to_be_clickable((By.XPATH ,XPATH_NAME_TEXT)))
@@ -166,3 +167,4 @@ def downloadImage(imgType,inputText):
 
 # crop.crop()
 # downloadImage("Steampunk","creepy putin with banana")
+downloadImage("XX", "town")
