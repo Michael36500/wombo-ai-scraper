@@ -1,13 +1,14 @@
 import os
-import threading
+# import threading
 import time
-from cv2 import imwrite
-import requests
-from io import BytesIO
+# from cv2 import imwrite
+# import requests
+# from io import BytesIO
 import shutil
 
 
 import crop_img as crop
+ 
 
 #Import third part modules
 from PIL import Image
@@ -36,7 +37,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 def downloadImage(imgType,inputText):
-    CHROME_DRIVER_PATH = "c:/Users/ambro/webdrivers/chromedriver.exe"   # add your chromedriver path
+    CHROME_DRIVER_PATH = "C:/Users/michael/webdrivers/chromedriver.exe"   # add your chromedriver path
 
     #XPATH FOR FINDING ELEMENTS ON THE PAGE, maybe you'll need to change them/create a issue
 
@@ -56,7 +57,7 @@ def downloadImage(imgType,inputText):
 
     #Add headless option
     browserOptions = Options()
-    # browserOptions.add_argument("--headless")
+    # browserOptions.add_argument("--head less")
 
     #Create driver
     driver = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH,options=browserOptions)
